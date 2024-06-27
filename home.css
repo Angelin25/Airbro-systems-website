@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.container li{
+    display: inline-block;
+    padding-left: 45px;
+    background-color: antiquewhite;
+}
+
+.container li a{
+    color: #4a4fe4;
+    text-decoration: none;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.container li a:hover
+{
+    color: black;
+}
